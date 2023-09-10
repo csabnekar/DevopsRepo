@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: https://www.onworks.net/osessionx61/#/client/REVGQVVMVABjAGRlZmF1bHQ=?username=guest13&password=server0113
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: Maven@3
